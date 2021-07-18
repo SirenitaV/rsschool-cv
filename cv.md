@@ -28,3 +28,35 @@ Writing – C1
 Listening – B2+ watching movies w/o subtitles, listening poems and short stories.
 
 Speaking – B2+ practicing with foreigners once a week.
+
+
+### Coding Example:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Albina Rakhimova</title>
+<link href="cvstyle.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1>Albina Rakhimova<h1>
+<nav>
+<div class="contacts">
+<ul>
+<li>+99890 917 45 19 (Telegram, WhatsApp)</li><br><br>
+<li>sirenita.violetta@gmail.com</li>
+</ul>
+</header>
+
+<footer><h3>https://github.com/SirenitaV 
+<br><br>
+2021 </h3>
+<br><br>
+<img src="https://rs.school/images/rs_school_js.svg" alt="RS School" width="150"><a href="https://rs.school/js/">RS School</a>
+</footer>
+</body>
+</html>
+```
