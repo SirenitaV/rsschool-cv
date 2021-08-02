@@ -37,4 +37,268 @@ html {
     scroll-behavior: smooth;
     font-family: "Roboto", sans-serif;
     height: 100%;
+    
+}
+
+.wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+    /*min-height: calc(100vh-150px);
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1440px;*/
+    /*flex-grow: 1;*/
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+body {
+    margin: 0;
+    
+}
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.dark-section {
+  background-color: #030303;
+  color: #ffffff;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.page-header {
+    background-color: #030303; 
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #030303;
+    height: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.logo {
+   background-image: url("assets/svg/louvre-icon.svg");
+   background-repeat: no-repeat;
+   padding: 0px 50px 20px 50px;
+   /*padding-bottom: 2%;*/
+}
+
+h1 {
+    font-family: "Forum";
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;    
+ }
+
+/*.logo :hover {
+ filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(11deg) brightness(50%) contrast(106%);   
+}*/
+
+li {
+    list-style: none;
+    padding: 30px;
+    
+} 
+
+ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: inherit;
+}
+
+.menu {
+    max-width: 720px;
+    background-color: #030303;
+    color: #ffffff;
+    font-weight: 200;
+    font-family: "Roboto-Thin";
+    
+}
+
+h2 {
+    font-family: "Forum";
+    font-weight: 400;
+     
+}
+.section-welcome {
+    min-height: 750px;
+    background-image: url("assets/img/welcome-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: 1215px 750px;
+    background-position: calc(50% + 352px) 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.section-title {
+    font-size: var(--font1);
+    color: var(--font-gold);
+    text-transform: uppercase;
+}
+
+.dark-title {
+    color: #ffffff;
+}
+
+.p-welcome {
+    font-size: 28px;
+    font-weight: 200; 
+}
+
+.red-button {
+    background-image: url("assets/img/Discover-button.png");
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 75px;
+    text-align: center;
+    padding: 25px 40px 25px 0px;
+    font-weight: 200;
+    font-size: 22px; 
+}
+
+.cards {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0 auto;
+    
+}
+
+.cards-links {
+    display: block;
+    text-decoration: none;
+    color: #000000;    
+}
+
+.cards-text {
+    font-family: Roboto-Thin;
+    font-weight: 200;
+    font-size: 22px;
+}
+.uderline-title {
+    position: relative;
+    font-family: "Forum";
+}
+
+h3 {
+    font-size: var(--font2);
+    text-transform: uppercase;
+}
+.underline-title::after {
+    content: "";
+    border: 1px solid var(--dark-red);
+    display: flex;
+    margin: 25px 0 75px 0;
+    /*position: abosolute;
+    bottom: -25px;
+    left: 0;
+    width: 1440px;
+    height: 3px;*/
+}
+
+.section-explore {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.explore-description {
+    float: left;
+    width: 40%;
+    font-family: "Roboto-Light";
+    font-size: 22px;
+    
+}
+
+.explore-picture{
+    float: left;
+    min-width: 30%;
+    padding-left: 50px; 
+}
+
+span {
+    color: var(--font-gold);
+}
+
+.section-tickets {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.video-section {
+    padding-top: 90px;
+    padding-bottom: 75px;
+}
+
+.section-contacts {
+    justify-content: space-between;
+    font-family: Roboto-Light;
+    font-size: 22px;
+    font-weight: 300;
+    
+}
+
+.contacts {
+    float: left;
+    min-width: 30%;
+}
+
+.map {
+    float: left;
+    min-width: 30%;
+}
+
+.contacts-text {
+    font-family: "Roboto-Medium";
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.page-footer {
+    background-color: #030303;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 70px 50px 70px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: "Forum";
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.footer-menu {
+    
 }
