@@ -10,13 +10,13 @@ sirenita.violetta@gmail.com
 For a couple of years, I felt myself at the wrong place doing something I do not really like. I believe I can do much more than I do now. After long researches and analysis, I realized that I wish to develop applications. Perhaps, web-based. So, my goal is to get the necessary skills to start as soon as possible. 
 
 ### Skills 
-HTML5 
-CSS3 
-JavaScript - basics 
-C# - basics
-Trello 
-GitHub
-Figma and Perfect Pixel for web-development
+* HTML5 
+* CSS3 
+* JavaScript - basics 
+* C# - basics
+* Trello 
+* GitHub
+* Figma and Perfect Pixel for web-development
 
 A little experience in creating web pages, simple applications during RS Preschool program (stage 0).
 
