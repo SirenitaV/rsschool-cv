@@ -1,1 +1,1 @@
-https://sirenitav.github.io/rsschool-cv/
+https://sirenitav.github.io/rsschool-cv/cv
