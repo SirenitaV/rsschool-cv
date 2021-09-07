@@ -10,7 +10,15 @@ sirenita.violetta@gmail.com
 For a couple of years, I felt myself at the wrong place doing something I do not really like. I believe I can do much more than I do now. After long researches and analysis, I realized that I wish to develop applications. Perhaps, web-based. So, my goal is to get the necessary skills to start as soon as possible. 
 
 ### Skills 
-Basics of HTML, CSS, basics of JavaScript, Trello, slightly touched Bootstrap, GitHub. A little experience in creating web pages.
+HTML5 
+CSS3 
+JavaScript - basics 
+C# - basics
+Trello 
+GitHub
+Figma and Perfect Pixel for web-development
+
+A little experience in creating web pages, simple applications during RS Preschool program (stage 0).
 
 ### Education: 
 Moscow University of Technologies, Faculty of Software Development (bachelor diploma in 2022). 
