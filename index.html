@@ -5,19 +5,33 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">   
     </head>
-    <body>
+    
+        <body>
+            <div class="wrapper">
     <header>
-     <div id="photo">
-      <img src="photo_cv.jpg" alt="Albina Rakhimova" height="225" width="150">
+        <div class="photo">
+         <div id ="photo-img">
+      <img src="photo_cv.jpg" alt="Albina Rakhimova" height="258" width="200">
      </div>
-     <div id="contacts">
-      <h1>Albina Rakhimova</h1>
+    </div>
+     <div class="contacts">
+      <h1>Albina<br><span class="bold-text">Rakhimova</span></h1>
       <h3>Frontend Developer</h3>
+      <div class="list-contacts">
+
       <ul>
-        <li>Phone: +998 97 713 45 19</li>
-        <li>E-mail: sirenita.violetta@gmail.com</li>
+        <li class="list"><br><span class="bold-text">Phone:</span> <br>+998 97 713 45 19</li>
+        <li class="list"><br><span class="bold-text">Telegram:</span> <br>@ya_vash_svetoch</li>
       </ul>
+      
+      
+      <ul>
+        <li><br><span class="bold-text">LinkedIn:</span> <br>albinar</li>
+        <li><br><span class="bold-text">E-mail: </span><br>sirenita.violetta@gmail.com</li>
+      </ul>
+    
      </div>
+    </div>
     </header>
 <main>
         <div id="profile">
@@ -32,14 +46,14 @@
         <section>
         <h4>Skills</h4>
         <div class="black-line">&nbsp;</div>
-        <br>
         <ul>
-            <li>Basics of HTML</li>
-            <li>Basic of  CSS</li>
-            <li>Basics of JavaScript</li>
-            <li>Slightly touched Bootstrap</li>
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>JavaScript - basics</li>
+            <li>C# - basics</li>
             <li>Trello</li>
             <li>Github</li>
+            <li>Figma and Perfect Pixel for web-development</li>
         </ul>
         </section>
         </div>
@@ -61,10 +75,10 @@
         <div class="black-line">&nbsp;</div>
         <br>
         Learning center B2+ later received the certificate for С1 from UNESCO. Had speaking practicing during 5 years (2005-2010)
-        Reading – C1
-        Writing – C1
-        Listening – B2+ watching movies w/o subtitles, listening poems and short stories.
-        Speaking – B2+ practicing with foreigners once a week.
+        <br><br>Reading – C1
+        <br>Writing – C1
+        <br>Listening – B2+ watching movies w/o subtitles, listening poems and short stories.
+        <br>Speaking – B2+ practicing with foreigners once a week.
         </section>
         </div>
     <div id="code-example">
@@ -72,42 +86,50 @@
         <h4>Code Example</h4>
         <div class="black-line">&nbsp;</div>
         <br>
-        <code>
-        &lt;h4>Skills&lt;/h4><br><br>
-        &lt;ul><br><br>
-        &nbsp;&nbsp;&lt;li>Basics of HTML&lt;/li>
-        <br>
-        &nbsp;&nbsp;&lt;li>Basic of  CSS&lt;/li>
-        <br>
-        &nbsp;&nbsp;&lt;li>Basics of JavaScript&lt;/li>
-        <br>
-        &nbsp;&nbsp;&lt;li>Basics of Bootstrap&lt;/li>
-        <br>
-        &nbsp;&nbsp;&lt;li>Trello&lt;/li>
-        <br>
-        &nbsp;&nbsp;&lt;li>Github&lt;/li>
-        <br>
-        <br>
-        &lt;/ul>
-        </code>
+        <pre class="code">
+const findSquares = num => {
+
+//     return `${max}-${min}`; 
+    
+let b = Math.floor(num/2);
+    let a = b + 1;
+    return (a*a) + '-' + (b*b);
+};
+        </pre>
         <br>
         <br>
         </section>
         </div>
+        <div id="hobbies">
+            <section>
+             <h4>Hobbies</h4>
+             <div class="black-line">&nbsp;</div>
+             <br>
+        <div class="hobbies-icons">
+        <img src="book.svg" alt="Reading" width="47" class="icons"><img src="yoga.svg" alt="Yoga" width="47" class="icons">
+        <img src="bake.svg" alt="Cooking" width="47" class="icons"><img src="gamepad.svg" alt="Games" width="47" class="icons">
+        </div>
+        </section>
+            </div>
        </main>
         <footer>
-    <div id="gh-time">
-    <a href="https://github.com/SirenitaV">Check my GitHib</a>
+    <div id="github">
+    <a href="https://github.com/SirenitaV"><img src="github-mark.png" alt="SirenitaV on GitHub">&nbsp; My GitHib</a>
     <br>
     <br>
-    <time datetime="2021-07-26">26-07-2021</time>
     </div>
+    <div id ="year">
+    <time datetime="2021">2021</time>
     <br>
     <br>
     <br>
-    <div id="rs-link">
-    <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School" width="150" height="50"></a>
+    </div>
+    <div id="rs-school">
+    <a href="https://rs.school/js/">
+    <img src="https://rs.school/images/rs_school_js.svg" alt="RS School" width="150" height="40">
+    </a>
     </div>    
 </footer>
-    </body>
+</div>
+   </body>
 </html>
