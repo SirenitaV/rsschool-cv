@@ -5,56 +5,64 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">   
     </head>
-    
-        <body>
-            <div class="wrapper">
-    <header>
-        <div class="photo">
-         <div id ="photo-img">
-      <img src="photo_cv.jpg" alt="Albina Rakhimova" height="258" width="200">
-     </div>
-    </div>
+    <body class="cv-body">
+    <div class="container">
+       
+<main class="cv-main">
+    <aside class="left-block">
+        <section class="photo">
+    <figure >
+     <img src="photo_cv.jpg" alt="Albina Rakhimova" class="photo-img">
+    </figure>
+    <h1 class="h1-cv">Albina Rakhimova</h1>
+    <h2 class="h2-cv">Frontend Developer</h2>
+    </section>
      <div class="contacts">
-      <h1>Albina<br><span class="bold-text">Rakhimova</span></h1>
-      <h3>Frontend Developer</h3>
-      <div class="list-contacts">
-
-      <ul>
-        <li class="list"><br><span class="bold-text">Phone:</span> <br>+998 97 713 45 19</li>
-        <li class="list"><br><span class="bold-text">Telegram:</span> <br>@ya_vash_svetoch</li>
+         <h3 class="h3-cv">Contacts:</h3>
+       <ul class="ul-contacts">
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="callto:+998977134519"><img src="telephone.png" alt="Phone" width="30"><a class="contacts-links" href="callto:+998977134519">+998 97 713 45 19</a></li>
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="https://t.me/ya_vash_svetoch"><img src="telegram.png" alt="Telegram" width="30"></a><a class="contacts-links" href="https://t.me/ya_vash_svetoch">Albina Rakhimova</a></li>
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="https://www.linkedin.com/in/albinar/"><img src="linkedin.png" alt="Telegram" width="30"><a class="contacts-links" href="https://www.linkedin.com/in/albinar/">albinar</a></li>
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="mailto:sirenita.violetta@gmail.com"><img src="e-mail.png" alt="Telegram" width="30"><a class="contacts-links" href="mailto:sirenita.violetta@gmail.com">Albina Rakhimova</a></li>
       </ul>
-      
-      
-      <ul>
-        <li><br><span class="bold-text">LinkedIn:</span> <br>albinar</li>
-        <li><br><span class="bold-text">E-mail: </span><br>sirenita.violetta@gmail.com</li>
-      </ul>
-    
      </div>
-    </div>
-    </header>
-<main>
+    </aside>
+    <div class="right-block">
+    <section class="menu menu-top">
+        <nav><ul class="ul-menu">
+            <li class="menu"><a href="#skills">Skills</a></li>
+            <li class="menu"><a href="#education">Education</a></li>
+            <li class="menu"><a href="#english">English</a></li>
+            <li class="menu"><a href="#code-example">Code Example</a></li>
+            <li class="menu"><a href="#video-presentation">Video Presentation</a></li>
+            <li class="menu"><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="cv">
         <div id="profile">
         <section>
          <h4>Profile</h4>
          <div class="black-line">&nbsp;</div>
          <br>
-        For a couple of years, I felt myself at the wrong place doing something I do not really like. I believe I can do much more than I do now. After long researches and analysis, I realized that I wish to develop applications. Perhaps, web-based. So, my goal is to get the necessary skills to start as soon as possible.
+         For a couple of years, I felt myself at the wrong place doing something I do not really like. I believe I can do much more than I do now. After long researches and analysis, I realized that I wish to develop applications. Perhaps, web-based. So, my goal is to get the necessary skills to start as soon as possible.
         </section>
         </div>
     <div id="skills">
         <section>
         <h4>Skills</h4>
         <div class="black-line">&nbsp;</div>
-        <ul>
-            <li>HTML 5</li>
-            <li>CSS 3</li>
-            <li>JavaScript - basics</li>
-            <li>C# - basics</li>
-            <li>Trello</li>
-            <li>Github</li>
-            <li>Figma and Perfect Pixel for web-development</li>
+         <nav>
+        <ul class="ul-skills">
+            <li class="skills-list-item">HTML 5</li>
+            <li class="skills-list-item">CSS 3</li>
+            <li class="skills-list-item">JavaScript - basics</li>
+            <li class="skills-list-item">C# - basics</li>
+            <li class="skills-list-item">Trello</li>
+            <li class="skills-list-item">Github</li>
+            <li class="skills-list-item">Figma and Perfect Pixel for web-development</li>
         </ul>
+    </nav>
         </section>
         </div>
         <div id="education">
@@ -100,6 +108,13 @@ let b = Math.floor(num/2);
         <br>
         </section>
         </div>
+        <div id="video-presentation">
+            <section>
+                <h4>Video Presentation</h4>
+                <div class="black-line">&nbsp;</div>
+                <video src=""></video>
+            </section>
+        </div>
         <div id="hobbies">
             <section>
              <h4>Hobbies</h4>
@@ -111,10 +126,25 @@ let b = Math.floor(num/2);
         </div>
         </section>
             </div>
-       </main>
-        <footer>
+        </section>
+    <div class="menu">
+      <nav>
+        <ul class="ul-menu">
+          <li class="menu"><a href="#profile">Profile</a></li>
+          <li class="menu"><a href="#skills">Skills</a></li>
+          <li class="menu"><a href="#education">Education</a></li>
+          <li class="menu"><a href="#english">English</a></li>
+          <li class="menu"><a href="#code-example">Code Example</a></li>
+          <li class="menu"><a href="#video-presentation">Video Presentation</a></li>
+        </ul>
+      </nav> 
+    </div>
+</div>
+</main>
+<footer class="cv-footer">
     <div id="github">
-    <a href="https://github.com/SirenitaV"><img src="github-mark.png" alt="SirenitaV on GitHub">&nbsp; My GitHib</a>
+    <a href="https://github.com/SirenitaV">
+        <img src="github-mark.png" alt="SirenitaV on GitHub">&nbsp; My GitHib</a>
     <br>
     <br>
     </div>
@@ -131,5 +161,8 @@ let b = Math.floor(num/2);
     </div>    
 </footer>
 </div>
+<script>
+  console.log("Самооценка:/n 1. Верстка валидная + 10 /n 2. Верстка семантическая (h1, h2, h3, h4, main, footer, section, nav, figure, time) +20 /n 3.")
+</script>
    </body>
 </html>
