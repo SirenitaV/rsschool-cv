@@ -3,8 +3,11 @@
     <head>
     <title> Albina Rakhimova CV</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">   
-    </head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/base16/papercolor-light.min.css">
+    <script src="highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>    
+</head>
     <body class="cv-body">
     <div class="container">
        
@@ -93,19 +96,22 @@
         <section>
         <h4>Code Example</h4>
         <div class="black-line">&nbsp;</div>
-        <br>
-        <pre class="code">
-const findSquares = num => {
+    <pre>
+    <code class="javascript">
+  function squareDigits(num){
+                                
+    let digits = num.toString(10).split('');
+    let powDigits = [];
+                
+    for (i = 0; i < digits.length; i ++) {
+    powDigits.push(Math.pow(digits[i], 2));
+    }
+               
+    return Number(powDigits.join(''));
+}
+</code>
+</pre>
 
-//     return `${max}-${min}`; 
-    
-let b = Math.floor(num/2);
-    let a = b + 1;
-    return (a*a) + '-' + (b*b);
-};
-        </pre>
-        <br>
-        <br>
         </section>
         </div>
         <div id="video-presentation">
@@ -162,7 +168,7 @@ let b = Math.floor(num/2);
 </footer>
 </div>
 <script>
-  console.log("Самооценка:/n 1. Верстка валидная + 10 /n 2. Верстка семантическая (h1, h2, h3, h4, main, footer, section, nav, figure, time) +20 /n 3.")
+console.log("Самооценка:\n 1. Верстка валидная + 10 \n 2. Верстка семантическая (h1, h2, h3, h4, main, footer, section, nav, figure, time) +20 \n 3. Css-стили +10 \n 4. контент центрируется, фоновое оформление ровное +10 \n 5. адаптивность  -----(10) \n 6. адаптивное меню  -----(10) \n 7. Фото есть, пропорции не искажены, Alt есть +10 \n 8. Контакты и навыки в виде списка +10 \n 9. Есть контакты, краткая информация о себе, навыки, образование и уровень английского +10 \n 10. Пример кода с подсветкой +10 \n 11. CV содержит изображения-ссылки на выполненные вами проекты. При клике по изображению страница проекта открывается в новой вкладке. У каждого проекта есть название, небольшое описание, указан перечень используемых технологий. -----10 \n 12. CV выполнено на английском языке +10 \n 13. Pull-request +10 \n 14. Видеорезюме с транскрипцией ------10 \n 15. Не хуже, чем в примерах +10 \n Итого: 120/160");
 </script>
    </body>
 </html>
