@@ -2,13 +2,22 @@ html {
     scroll-behavior: smooth;
 }
 
-.cv-body {
+/*.cv-body {
     margin: 0 auto;
     width: 70%;
     box-shadow: 3px 0px 40px 2px rgb(56, 56, 56);
-}
+    border: 3px solid red;
+    height: 100%;
+    font: 1.1rem Futura, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}*/
 
 .container {
+    margin: 0 auto;
+    width: 70%;
+    box-shadow: 3px 0px 40px 2px rgb(56, 56, 56);
     height: 100%;
     font: 1.1rem Futura, sans-serif;
     background-color: rgb(243, 235, 226);
@@ -18,7 +27,13 @@ html {
 
 .cv-main {
     display: flex;
-    justify-content: space-between;
+}
+
+.left-block {
+  background-color: rgb(73, 74, 88); 
+  color: #ffffff;
+  padding: 2%;
+  white-space: nowrap;
 }
 
 .menu {
@@ -36,13 +51,7 @@ a {
     color: #000000;
 }
 
-.left-block {
-  background-color: rgb(73, 74, 88); 
-  width: 40%;
-  color: #ffffff;
-  padding: 2%;
-  white-space: nowrap;
-}
+
 
 /*.right-block {
     
@@ -93,10 +102,6 @@ h1, h2, h3 {
     color: #ffffff;
 }
 
-.cv-main {
-    max-width: 60%;
-}
-
 .ul-menu {
     list-style: none;
     margin: 0 auto;
@@ -132,6 +137,15 @@ h1, h2, h3 {
     left: -20px;
     display: block;
     top: calc(50% - 4px); 
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.project-img {
+  max-width: 100%;
 }
 
 .hobbies-icons {
