@@ -2,21 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-/*.cv-body {
-    margin: 0 auto;
-    width: 70%;
-    box-shadow: 3px 0px 40px 2px rgb(56, 56, 56);
-    border: 3px solid red;
-    height: 100%;
-    font: 1.1rem Futura, sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-color: pink;
-}*/
-
 .container {
     margin: 0 auto;
-    width: 70%;
     box-shadow: 3px 0px 40px 2px rgb(56, 56, 56);
     height: 100%;
     font: 1.1rem Futura, sans-serif;
@@ -37,13 +24,13 @@ html {
 }
 
 .menu {
-   padding: 0 25px 0 0;
-   text-align: center;
-   font-size: 0.8rem;
+   margin-top: 30px;
 }
 
-.menu-top {
-  margin-top: 30px;
+.li-menu {
+   padding: 0 15px 0 0;
+   text-align: center;
+   font-size: 0.8rem; 
 }
 
 a {
@@ -51,22 +38,16 @@ a {
     color: #000000;
 }
 
-
-
-/*.right-block {
-    
-}*/
-
 .photo {
     margin: 0;
     padding: 5%;
     background-color: #a8b9df;
     text-align: center;
-    
 }
 
 .photo-img {
     border: 2px solid rgb(243, 235, 226);
+    width: 100%;
     max-width: 100%;
 }
 
@@ -109,6 +90,17 @@ h1, h2, h3 {
     justify-content: space-between; 
 }
 
+.burger-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+.ul-burger {
+    list-style: none;
+}
+
 .ul-skills {
     list-style: none;
 }
@@ -145,6 +137,7 @@ figcaption {
 }
 
 .project-img {
+  width: 100%;
   max-width: 100%;
 }
 
@@ -178,4 +171,84 @@ figcaption {
 }
 #rs-school {
     margin-top: 40px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1008px;
+        
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 840px;
+        
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 690px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .cv-main {
+        flex-wrap: nowrap;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        max-width: 403px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger-menu {
+        position: absolute;
+        top: 0;
+    }
+
+    .cv-main {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    
+    .left-block {
+        width: 100%;
+       }
+    
+    .right-block {
+        width: 100%;
+       }
+    
+    .li-contacts-item {
+        padding-left: 30px;
+        padding-right: 30px; 
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+       max-width: 349px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 309px; 
+  }
 }
