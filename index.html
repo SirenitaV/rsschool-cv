@@ -11,7 +11,7 @@
 </head>
     <body class="cv-body">
     <div class="container">
-       
+      
 <main class="cv-main">
     <aside class="left-block">
         <section class="photo">
@@ -19,31 +19,28 @@
      <img src="img/photo_cv.jpg" alt="Albina Rakhimova" class="photo-img">
      <figcaption></figcaption>
     </figure>
-    <h1 class="h1-cv">Albina Rakhimova</h1>
-    <h2 class="h2-cv">Frontend Developer</h2>
+    <h2 class="h2-cv">Albina Rakhimova</h2>
+    <h3 class="h3-cv">Frontend Developer</h3>
     </section>
      <div class="contacts" id="contacts">
-         <h3 class="h3-cv">Contacts:</h3>
+         <h4 class="h4-cv">Contacts:</h4>
        <ul class="ul-contacts">
         <li class="li-contacts-item"><br><a class="contacts-link-image" href="callto:+998977134519"></a><img src="img/telephone.png" alt="Phone" width="30"><a class="contacts-links" href="callto:+998977134519">+998 97 713 45 19</a></li>
-        <li class="li-contacts-item"><br><a class="contacts-link-image" href="https://t.me/ya_vash_svetoch"></a><img src="img/telegram.png" alt="Telegram" width="30"></a><a class="contacts-links" href="https://t.me/ya_vash_svetoch">Albina Rakhimova</a></li>
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="https://t.me/ya_vash_svetoch"></a><img src="img/telegram.png" alt="Telegram" width="30"><a class="contacts-links" href="https://t.me/ya_vash_svetoch">Albina Rakhimova</a></li>
         <li class="li-contacts-item"><br><a class="contacts-link-image" href="https://www.linkedin.com/in/albinar/"></a><img src="img/linkedin.png" alt="Telegram" width="30"><a class="contacts-links" href="https://www.linkedin.com/in/albinar/">albinar</a></li>
         <li class="li-contacts-item"><br><a class="contacts-link-image" href="mailto:sirenita.violetta@gmail.com"></a><img src="img/e-mail.png" alt="Telegram" width="30"><a class="contacts-links" href="mailto:sirenita.violetta@gmail.com">Albina Rakhimova</a></li>
       </ul>
      </div>
     </aside>
     <div class="right-block">
-    <section class="menu">
-        <nav><ul class="ul-menu">
-            <li class="li-menu"><a href="#skills">Skills</a></li>
-            <li class="li-menu"><a href="#education">Education</a></li>
-            <li class="li-menu"><a href="#english">English</a></li>
-            <li class="li-menu"><a href="#code-example">Code Example</a></li>
-            <li class="li-menu"><a href="#video-presentation">Video Presentation</a></li>
-            <li class="li-menu"><a href="#hobbies">Hobbies</a></li>
-            </ul>
-        </nav>
-        <section class="burger-menu">
+        <a href="#header" class="button-up"></a>
+    <header id="header">
+        <div class="burger-button">
+         <span></span>
+         <span></span>
+         <span></span>
+     </div>
+     <div class="burger-menu">
             <nav>
                 <ul class="ul-burger">
                     <li class="li-burger"><a href="#contacts">Contacts</a></li>
@@ -56,9 +53,22 @@
                     <li class="li-burger"><a href="#hobbies">Hobbies</a></li>
                 </ul>
             </nav>
-        </section>
-    </section>
-    <section class="cv">
+        </div>
+ </header> 
+        
+        <div class="menu">
+        <nav><ul class="ul-menu">
+            <li class="li-menu"><a href="#skills">Skills</a></li>
+            <li class="li-menu"><a href="#education">Education</a></li>
+            <li class="li-menu"><a href="#english">English</a></li>
+            <li class="li-menu"><a href="#code-example">Code Example</a></li>
+            <li class="li-menu"><a href="#video-presentation">Video Presentation</a></li>
+            <li class="li-menu"><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+    <div class="cv">
         <div id="profile">
         <section>
          <h4>Profile</h4>
@@ -119,7 +129,7 @@
     let digits = num.toString(10).split('');
     let powDigits = [];
                 
-    for (i = 0; i < digits.length; i ++) {
+    for (i = 0; i &lt; digits.length; i ++) {
     powDigits.push(Math.pow(digits[i], 2));
     }
                
@@ -157,7 +167,7 @@
             <section>
                 <h4>Video Presentation</h4>
                 <div class="black-line">&nbsp;</div>
-                <figure><video src=""></video><figcaption></figcaption></figure>
+                <figure><video src="#"></video><figcaption></figcaption></figure>
             </section>
         </div>
         <div id="hobbies">
@@ -173,7 +183,7 @@
         </div>
         </section>
             </div>
-        </section>
+        </div>
     </div>
 </main>
 <footer class="cv-footer">
@@ -197,7 +207,27 @@
 </footer>
 </div>
 <script>
-console.log("Самооценка:\n 1. Верстка валидная + 10 \n 2. Верстка семантическая (h1, h2, h3, h4, main, footer, section, nav, figure, time) +20 \n 3. Css-стили +10 \n 4. контент центрируется, фоновое оформление ровное +10 \n 5. адаптивность  -----(10) \n 6. адаптивное меню  -----(10) \n 7. Фото есть, пропорции не искажены, Alt есть +10 \n 8. Контакты и навыки в виде списка +10 \n 9. Есть контакты, краткая информация о себе, навыки, образование и уровень английского +10 \n 10. Пример кода с подсветкой +10 \n 11. Скрины проектов с названием, описанием и использованными технологиями. По клику открываются в новой вкладке. +10 \n 12. CV выполнено на английском языке +10 \n 13. Pull-request +10 \n 14. Видеорезюме с транскрипцией ------10 \n 15. Не хуже, чем в примерах +10 \n Итого: 130/160");
+console.log("Самооценка:\n 1. Верстка валидная + 10 \n 2. Верстка семантическая (h2, h3, h4, header, main, footer, section, nav, figure, time) +20 \n 3. Css-стили +10 \n 4. контент центрируется, фоновое оформление ровное +10 \n 5. адаптивность +10 \n 6. адаптивное меню  +10 \n 7. Фото есть, пропорции не искажены, Alt есть +10 \n 8. Контакты и навыки в виде списка +10 \n 9. Есть контакты, краткая информация о себе, навыки, образование и уровень английского +10 \n 10. Пример кода с подсветкой +10 \n 11. Скрины проектов с названием, описанием и использованными технологиями. По клику открываются в новой вкладке. +10 \n 12. CV выполнено на английском языке +10 \n 13. Pull-request +10 \n 14. Видеорезюме с транскрипцией ------10 \n 15. Не хуже, чем в примерах +10 \n Итого: 150/160");
 </script>
+<script>
+    let button = document.querySelector(".burger-button");
+    let menu = document.querySelector(".burger-menu");
+    let clickedLink = document.querySelector(".ul-burger")
+
+  button.addEventListener("click", function(){
+  button.classList.toggle("active");
+  menu.classList.toggle("active");
+  
+})
+ /* clickedLink.addEventListener("click", function (){
+  menu.style.display = "none";
+  console.log("hm");
+})
+
+  clickedLink.removeEventListener("click", function() {
+
+  })*/
+
+  </script>
    </body>
 </html>
