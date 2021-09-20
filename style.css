@@ -204,6 +204,11 @@ header {
     height: 3px;
 }
 
+.javascript {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
 .skills-list-item {
     position: relative;
 }
@@ -250,9 +255,11 @@ figcaption {
     max-height: 2%;
 }
 
-.presentation {
-    width: 60%;
-    height: 200px
+.youtube-link {
+  width: 100%;
+  max-width: 100%; 
+  border: 0;
+  height: 300px; 
 }
 
 #github {
@@ -302,6 +309,11 @@ figcaption {
         flex-wrap: nowrap;
         max-width: 100%;
 }
+
+.li-menu {
+    padding: 0 5px 0 0;
+}
+
 }
 
 @media (max-width: 576px) {
