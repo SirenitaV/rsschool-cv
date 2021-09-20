@@ -302,6 +302,11 @@ figcaption {
         flex-wrap: nowrap;
         max-width: 100%;
 }
+
+.li-menu {
+    padding: 0 5px 0 0;
+}
+
 }
 
 @media (max-width: 576px) {
