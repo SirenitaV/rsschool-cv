@@ -123,16 +123,16 @@
         <div class="black-line">&nbsp;</div>
     <pre>
     <code class="javascript">
-  function squareDigits(num){
+function squareDigits(num){
                                 
-    let digits = num.toString(10).split('');
-    let powDigits = [];
+  let digits = num.toString(10).split('');
+  let powDigits = [];
                 
-    for (i = 0; i &lt; digits.length; i ++) {
-    powDigits.push(Math.pow(digits[i], 2));
-    }
+   for (i = 0; i &lt; digits.length; i ++) {
+  powDigits.push(Math.pow(digits[i], 2));
+  }
                
-    return Number(powDigits.join(''));
+  return Number(powDigits.join(''));
 }
 </code>
 </pre>
@@ -219,7 +219,8 @@ console.log("Самооценка:\n 1. Верстка валидная + 10 \n 
     let menu = document.querySelector(".burger-menu");
     let clickedLink = document.querySelector(".ul-burger")
 
-  button.addEventListener("click", function(){
+ 
+    button.addEventListener("click", function(){
   button.classList.toggle("active");
   menu.classList.toggle("active");
   
@@ -227,6 +228,10 @@ console.log("Самооценка:\n 1. Верстка валидная + 10 \n 
  /* clickedLink.addEventListener("click", function (){
   menu.style.display = "none";
   console.log("hm");
+ document.addEventListener("click", function {
+
+  })
+
 })
 
   clickedLink.removeEventListener("click", function() {

@@ -204,6 +204,11 @@ header {
     height: 3px;
 }
 
+.javascript {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
 .skills-list-item {
     position: relative;
 }
