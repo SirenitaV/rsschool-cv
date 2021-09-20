@@ -251,8 +251,8 @@ figcaption {
 }
 
 .presentation {
-    width: 200px;
-    height: 150px;
+    width: 60%;
+    height: 200px
 }
 
 #github {
@@ -265,6 +265,13 @@ figcaption {
 }
 #rs-school {
     margin-top: 40px;
+}
+
+@media (max-width: 2560px) {
+    .container {
+        max-width: 70%;
+        
+    }
 }
 
 @media (max-width: 1440px) {
@@ -289,12 +296,12 @@ figcaption {
 
 @media (max-width: 768px) {
     .container {
-        max-width: 720px;
-    }
+        max-width: 750px;
+}
     .cv-main {
         flex-wrap: nowrap;
         max-width: 100%;
-    }
+}
 }
 
 @media (max-width: 576px) {
