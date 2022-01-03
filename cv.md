@@ -33,3 +33,13 @@ Writing – C1
 Listening – B2+ watching movies w/o subtitles, listening poems and short stories.
 
 Speaking – B2+ practicing with foreigners once a week.
+
+### Coding Example:
+```
+const findSquares = num => {
+//     return `${max}-${min}`;
+  let b = Math.floor(num/2);
+  let a = b + 1;
+  return (a*a) + '-' + (b*b);
+};
+```
