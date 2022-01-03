@@ -1,7 +1,6 @@
 # Albina Rakhimova
 
 ![Albina Rakhimova CV](./photo_cv.jpg "Albina Rakhimova")
-
 ### Phone:
 +99890 917 45 19 (Telegram, WhatsApp)
 ### E-mail:
@@ -17,9 +16,9 @@ For a couple of years, I felt myself at the wrong place doing something I do not
 * Trello 
 * GitHub
 * Figma and Perfect Pixel for web-development
+* Node Js
 
-A little experience in creating web pages, simple applications during RS Preschool program (stage 0).
-
+A little experience in creating web pages, simple applications during RS Preschool program (stage 0) and stage 1.
 ### Education: 
 Moscow University of Technologies, Faculty of Software Development (bachelor diploma in 2022). 
 In the meantime, I am finalizing CS50 at Harvard College and ready to work hard on Javascript/Frontend in RS School.
