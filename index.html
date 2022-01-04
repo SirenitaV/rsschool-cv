@@ -3,58 +3,94 @@
     <head>
     <title> Albina Rakhimova CV</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">   
-    </head>
-    
-        <body>
-            <div class="wrapper">
-    <header>
-        <div class="photo">
-         <div id ="photo-img">
-      <img src="photo_cv.jpg" alt="Albina Rakhimova" height="258" width="200">
-     </div>
-    </div>
-     <div class="contacts">
-      <h1>Albina<br><span class="bold-text">Rakhimova</span></h1>
-      <h3>Frontend Developer</h3>
-      <div class="list-contacts">
-
-      <ul>
-        <li class="list"><br><span class="bold-text">Phone:</span> <br>+998 97 713 45 19</li>
-        <li class="list"><br><span class="bold-text">Telegram:</span> <br>@ya_vash_svetoch</li>
-      </ul>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/base16/papercolor-light.min.css">
+    <script src="highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>    
+</head>
+    <body class="cv-body">
+    <div class="container">
       
-      
-      <ul>
-        <li><br><span class="bold-text">LinkedIn:</span> <br>albinar</li>
-        <li><br><span class="bold-text">E-mail: </span><br>sirenita.violetta@gmail.com</li>
+<main class="cv-main">
+    <aside class="left-block">
+        <section class="photo">
+    <figure>
+     <img src="img/photo_cv.jpg" alt="Albina Rakhimova" class="photo-img">
+     <figcaption></figcaption>
+    </figure>
+    <h1 class="h1-cv">Albina Rakhimova</h1>
+    <h2 class="h2-cv">Frontend Developer</h2>
+    </section>
+     <div class="contacts" id="contacts">
+         <h4 class="h4-cv">Contacts:</h4>
+       <ul class="ul-contacts">
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="callto:+998977134519"></a><img src="img/telephone.png" alt="Phone" width="30"><a class="contacts-links" href="callto:+998977134519">+998 97 713 45 19</a></li>
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="https://t.me/ya_vash_svetoch"></a><img src="img/telegram.png" alt="Telegram" width="30"><a class="contacts-links" href="https://t.me/ya_vash_svetoch">Albina Rakhimova</a></li>
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="https://www.linkedin.com/in/albinar/"></a><img src="img/linkedin.png" alt="Telegram" width="30"><a class="contacts-links" href="https://www.linkedin.com/in/albinar/">albinar</a></li>
+        <li class="li-contacts-item"><br><a class="contacts-link-image" href="mailto:sirenita.violetta@gmail.com"></a><img src="img/e-mail.png" alt="Telegram" width="30"><a class="contacts-links" href="mailto:sirenita.violetta@gmail.com">Albina Rakhimova</a></li>
       </ul>
-    
      </div>
+    </aside>
+    <div class="right-block">
+        <a href="#header" class="button-up"></a>
+    <header id="header">
+        <div class="burger-button">
+         <span></span>
+         <span></span>
+         <span></span>
+     </div>
+     <div class="burger-menu">
+            <nav>
+                <ul class="ul-burger">
+                    <li class="li-burger"><a href="#contacts">Contacts</a></li>
+                    <li class="li-burger"><a href="#profile">Profile</a></li>
+                    <li class="li-burger"><a href="#skills">Skills</a></li>
+                    <li class="li-burger"><a href="#education">Education</a></li>
+                    <li class="li-burger"><a href="#english">English</a></li>
+                    <li class="li-burger"><a href="#code-example">Code Example</a></li>
+                    <li class="li-burger"><a href="#video-presentation">Video Presentation</a></li>
+                    <li class="li-burger"><a href="#hobbies">Hobbies</a></li>
+                </ul>
+            </nav>
+        </div>
+ </header> 
+    <div class="menu">
+        <nav><ul class="ul-menu">
+            <li class="li-menu"><a href="#skills">Skills</a></li>
+            <li class="li-menu"><a href="#education">Education</a></li>
+            <li class="li-menu"><a href="#english">English</a></li>
+            <li class="li-menu"><a href="#code-example">Code Example</a></li>
+            <li class="li-menu"><a href="#video-presentation">Video Presentation</a></li>
+            <li class="li-menu"><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+        
     </div>
-    </header>
-<main>
+    <div class="cv">
         <div id="profile">
         <section>
          <h4>Profile</h4>
          <div class="black-line">&nbsp;</div>
          <br>
-        For a couple of years, I felt myself at the wrong place doing something I do not really like. I believe I can do much more than I do now. After long researches and analysis, I realized that I wish to develop applications. Perhaps, web-based. So, my goal is to get the necessary skills to start as soon as possible.
+         For a couple of years, I felt myself at the wrong place doing something I do not really like. I believe I can do much more than I do now. After long researches and analysis, I realized that I wish to develop applications. Perhaps, web-based. So, my goal is to get the necessary skills to start as soon as possible.
         </section>
         </div>
     <div id="skills">
         <section>
         <h4>Skills</h4>
         <div class="black-line">&nbsp;</div>
-        <ul>
-            <li>HTML 5</li>
-            <li>CSS 3</li>
-            <li>JavaScript - basics</li>
-            <li>C# - basics</li>
-            <li>Trello</li>
-            <li>Github</li>
-            <li>Figma and Perfect Pixel for web-development</li>
+         <nav>
+        <ul class="ul-skills">
+            <li class="skills-list-item">HTML 5</li>
+            <li class="skills-list-item">CSS 3</li>
+            <li class="skills-list-item">JavaScript - basics</li>
+            <li class="skills-list-item">C# - basics</li>
+            <li class="skills-list-item">Trello</li>
+            <li class="skills-list-item">Github</li>
+            <li class="skills-list-item">Figma and Perfect Pixel for web-development</li>
         </ul>
+    </nav>
         </section>
         </div>
         <div id="education">
@@ -85,19 +121,58 @@
         <section>
         <h4>Code Example</h4>
         <div class="black-line">&nbsp;</div>
+    <pre>
+    <code class="javascript">
+function squareDigits(num){
+                                
+  let digits = num.toString(10).split('');
+  let powDigits = [];
+                
+   for (i = 0; i &lt; digits.length; i ++) {
+  powDigits.push(Math.pow(digits[i], 2));
+  }
+               
+  return Number(powDigits.join(''));
+}
+</code>
+</pre>
+<figure class="projects">
+    <a href="https://rolling-scopes-school.github.io/sirenitav-JSFEPRESCHOOL/js30-clock" target="_blank"><img src="img/jsclock.JPG" alt="Online clock and Meditation page" class="project-img"></a>
+    <figcaption>
+        <h4>Online clock and meditation page.</h4> 
+        The project shows local time on mechanical and digital clocks. For meditation, a user needs to click the link and do nothing for 2 minutes. 
+        <br><br>
+        This short meditation is called to relax the mind and focus on one's thoughts.   
+        <br><br>
+        Technologies: html, css, and javascript.
+    </figcaption>
+</figure>
+<figure class="projects">
+    <a href="https://rolling-scopes-school.github.io/sirenitav-JSFEPRESCHOOL/whack-a-mole/" target="_blank"><img src="img/whack-a-mole.JPG" alt="Online game whack-a-mole style" class="project-img"></a>
+    <figcaption>
+        <h4>Online-game "Whack-a-vampire!".</h4> 
+        A player has to smash every vampire waking up out of his grave. 
+        <br><br>
+        The game has 5 levels with growing complexity. Vampires shorten their appearance time on each level, so a player has less time to smash them.  
+        <br><br>
+        The game has a short soundtrack for levels and a dying sound for a whacked vampire. 
+        <br><br>
+        Technologies: html, css, and javascript.
+    </figcaption>
+</figure>
+    </section>
+    </div>
+    <div id="video-presentation">
+        <section>
+          <h4>Video Presentation</h4>
+          <div class="black-line">&nbsp;</div>
+          <figure>
+            <iframe src="https://www.youtube.com/embed/-yScG9GStjk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube-link"></iframe>
+          <figcaption>
         <br>
-        <pre class="code">
-const findSquares = num => {
-
-//     return `${max}-${min}`; 
-    
-let b = Math.floor(num/2);
-    let a = b + 1;
-    return (a*a) + '-' + (b*b);
-};
-        </pre>
-        <br>
-        <br>
+          A short video-presentation of my experience and how I came to the idea to become a developer.
+        </figcaption>
+        </figure>
         </section>
         </div>
         <div id="hobbies">
@@ -106,15 +181,20 @@ let b = Math.floor(num/2);
              <div class="black-line">&nbsp;</div>
              <br>
         <div class="hobbies-icons">
-        <img src="book.svg" alt="Reading" width="47" class="icons"><img src="yoga.svg" alt="Yoga" width="47" class="icons">
-        <img src="bake.svg" alt="Cooking" width="47" class="icons"><img src="gamepad.svg" alt="Games" width="47" class="icons">
+        <img src="img/book.svg" alt="Reading" width="47" class="icons">
+        <img src="img/yoga.svg" alt="Yoga" width="47" class="icons">
+        <img src="img/bake.svg" alt="Cooking" width="47" class="icons">
+        <img src="img/gamepad.svg" alt="Games" width="47" class="icons">
         </div>
         </section>
             </div>
-       </main>
-        <footer>
+        </div>
+    </div>
+</main>
+<footer class="cv-footer">
     <div id="github">
-    <a href="https://github.com/SirenitaV"><img src="github-mark.png" alt="SirenitaV on GitHub">&nbsp; My GitHib</a>
+    <a href="https://github.com/SirenitaV">
+        <img src="img/github-mark.png" alt="SirenitaV on GitHub">&nbsp; My GitHib</a>
     <br>
     <br>
     </div>
@@ -131,5 +211,46 @@ let b = Math.floor(num/2);
     </div>    
 </footer>
 </div>
+<script>
+console.group("%cСамооценка:", "color: violet")
+    console.log("1. Ссылка на своё CV, задеплоенное на gh-pages " + "%c+10", "color: violet");
+    console.log("2. Верстка валидная - no errors or warnings to show " + "%c+10", "color: violet");
+    console.log("3. Верстка семантическая (header, main, footer, nav, h1, h2) " + "%c+20", "color: violet");
+    console.log("4. В footer есть ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс " + "%c+10", "color: violet");
+    console.log("5. css-стили " + "%c+10", "color: violet");
+    console.log("6. При уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону " + "%c+10", "color: violet");
+    console.log("7. На странице СV есть фото или аватарка автора, пропорции изображения не искажены, у изображения есть атрибут alt " + "%c+10", "color: violet");
+    console.log("8. Навигация, контакты для связи и перечень навыков оформлены в виде списка ul > li или ul > li > a " + "%c+10", "color: violet");
+    console.log("9. Содержание CV(о себе, контакты, навыки, пример кода, перечень проектов со ссылками - по клику открываются в новой вкладке, образование и уровень английского) " + "%c+30", "color: violet");
+    console.log("10. CV выполнено на английском языке " + "%c+10", "color: violet");
+    console.log("Total score: " + "%c130/130", "color: violet");
+</script>
+<script>
+    let button = document.querySelector(".burger-button");
+    let menu = document.querySelector(".burger-menu");
+    let clickedLink = document.querySelector(".ul-burger")
+
+ 
+    button.addEventListener("click", function(){
+  button.classList.toggle("active");
+  menu.classList.toggle("active");
+  
+})
+ /* clickedLink.addEventListener("click", function (){
+  menu.style.display = "none";
+  console.log("hm");
+ document.addEventListener("click", function {
+
+  })
+
+})
+
+  clickedLink.removeEventListener("click", function() {
+
+  })*/
+
+  </script>
    </body>
+   
+
 </html>
